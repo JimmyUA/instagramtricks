@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <scp trust="true" password="r@sha2129" localFile="C:\Users\Sergey\workspace\instagramtricks/target/instagram-tricks-1.0-SNAPSHOT.jar" remoteToFile="root@5.189.140.129:/home/instagram.jar" verbose="true"></scp>
+</target>
+</project>

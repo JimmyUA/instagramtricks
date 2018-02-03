@@ -1,21 +1,19 @@
 package instatricks.infogetter;
 
 
-import com.google.gson.Gson;
-import instatricks.entity.Media;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-
+@Service
 public class PageGetter {
-    private final String DENIS_ACCOUNT_URL = "https://www.instagram.com/denisantipanov/?hl=ru";
 
-    public String getPageCode() {
+    public String getPageCode(String URL) {
         StringBuffer buffer;
         try {
-            URL url = new URL(DENIS_ACCOUNT_URL);
+            URL url = new URL(URL);
             InputStream is = url.openStream();
             int ptr;
             buffer = new StringBuffer();

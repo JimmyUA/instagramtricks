@@ -21,13 +21,78 @@
         </repository>
     </repositories>
 
+ <build>
+     <plugins>
+         <plugin>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-maven-plugin</artifactId>
+             <version>1.5.9.RELEASE</version>
+             <executions>
+                 <execution>
+                     <goals>
+                         <goal>repackage</goal>
+                     </goals>
+                 </execution>
+             </executions>
+         </plugin>
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-antrun-plugin</artifactId>
+             <version>1.8</version>
+             <executions>
+                 <execution>
+                     <id>milad175vps</id>
+                     <phase>install</phase>
+                     <goals>
+                         <goal>run</goal>
+                     </goals>
+                     <configuration>
+                         <target>
+                             <!-- keyfile+passphrase or  password, choose one -->
+                             <!--
+                             <scp localFile="${project.basedir}/target/qos-spark-1.0.jar"
+                               remoteToFile="root@192.168.203.156:/usr/sanss" verbose="true"
+                               keyfile="C:\Users\shengw\.ssh\192.168.203.156\id_rsa"
+                               passphrase="">
+                             </scp>
+                              -->
+                             <scp localFile="${project.basedir}/target/instagram-tricks-1.0-SNAPSHOT.jar"
+                                  remoteToFile="root@5.189.140.129:/home/instagram.jar" verbose="true"
+                                  password="r@sha2129" trust="true">
+                             </scp>
+                         </target>
+                     </configuration>
+                 </execution>
+             </executions>
+             <!-- libraries for scp impl      -->
+             <!-- antrun doesn't use os's scp -->
+             <dependencies>
+                 <dependency>
+                     <groupId>com.jcraft</groupId>
+                     <artifactId>jsch</artifactId>
+                     <version>0.1.53</version>
+                 </dependency>
+                 <dependency>
+                     <groupId>ant</groupId>
+                     <artifactId>ant-jsch</artifactId>
+                     <version>1.6.5</version>
+                 </dependency>
+             </dependencies>
+         </plugin>
+         <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-compiler-plugin</artifactId>
+             <configuration>
+                 <source>1.8</source>
+                 <target>1.8</target>
+             </configuration>
+         </plugin>
+     </plugins>
+ </build>
+
+
     <dependencies>
 
-        <dependency>
-            <groupId>com.github.igor-suhorukov</groupId>
-            <artifactId>instagram-java-scraper</artifactId>
-            <version>ba99927d508822a9664ef465ccf37ee7864b0fbb</version>
-        </dependency>
         <!-- LOGGING DEPENDENCIES - LOG4J -->
 
         <dependency>
@@ -74,6 +139,46 @@
             <version>3.4.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.53</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
 
     </dependencies>
 
