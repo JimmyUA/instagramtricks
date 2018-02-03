@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b253957b-68ea-45fd-93a4-2d68c1a8eda8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_53.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SSHConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/FindTags.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/autopost/DriverInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/autopost/InstagramSubscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/autopost/PageValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/autopost/liker/AutoLiker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/autopost/pagevalidate/PageValidatableData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/popularhashtags/MostPopularHashTagsGetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/popularhashtags/getters/ExcelMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/instatricks/util/ClassName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_igor_suhorukov_instagram_java_scraper_ba99927d508822a9664ef465ccf37ee7864b0fbb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_logging_interceptor_3_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/instatricks/autopost/InstagramPoster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/instatricks/autopost/InstagramPoster.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/MainListener.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/MainListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/entity/Media.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/entity/Media.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/entity/Node.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/entity/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/entity/Source.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/entity/Source.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/infogetter/JsonGetter.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/infogetter/JsonGetter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/infogetter/NodesGetter.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/infogetter/NodesGetter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/infogetter/PageGetter.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/infogetter/PageGetter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/instatricks/saveimage/ImageSaver.class" afterPath="$PROJECT_DIR$/target/classes/instatricks/saveimage/ImageSaver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/instagram-tricks-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/instagram-tricks-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instagramtricks.iml" afterPath="$PROJECT_DIR$/instagramtricks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/instatricks/MainListener.java" afterPath="$PROJECT_DIR$/src/main/java/instatricks/MainListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/instatricks/infogetter/PageGetter.java" afterPath="$PROJECT_DIR$/src/main/java/instatricks/infogetter/PageGetter.java" />
-    </list>
+    <list default="true" id="b253957b-68ea-45fd-93a4-2d68c1a8eda8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +27,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="721">
+            <state relative-caret-position="4525">
               <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding />
             </state>
@@ -96,8 +61,8 @@
       <file leaf-file-name="PageValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/PageValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+            <state relative-caret-position="1525">
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,11 +74,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/InstagramSubscriber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="274" column="75" lean-forward="true" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+              <caret line="274" column="75" lean-forward="false" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4541#4542#0" expanded="true" />
-                <element signature="e#4631#4632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +85,8 @@
       <file leaf-file-name="AutoLiker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/liker/AutoLiker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+            <state relative-caret-position="225">
+              <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +107,7 @@
       <file leaf-file-name="PageValidatableData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/pagevalidate/PageValidatableData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="250">
               <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -586,11 +549,12 @@
       <workItem from="1516380267176" duration="3066000" />
       <workItem from="1516385724263" duration="10007000" />
       <workItem from="1516434822798" duration="34122000" />
+      <workItem from="1517680431480" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106847000" />
+    <option name="totallyTimeSpent" value="106859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -598,7 +562,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -623,6 +586,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -949,9 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="e#2290#2291#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,13 +920,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
+        <state relative-caret-position="4525">
           <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding />
         </state>
@@ -973,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/pagevalidate/PageValidatableData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="250">
           <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -981,19 +941,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/liker/ФгещДшлук.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/liker/ФгещДшлук.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebDriverException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,17 +953,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
-          <folding>
-            <element signature="e#12755#12756#0" expanded="true" />
-            <element signature="e#12798#12799#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/liker/AutoLiker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="225">
+          <caret line="15" column="83" lean-forward="false" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1020,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/PageValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        <state relative-caret-position="1525">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,11 +979,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/instatricks/autopost/InstagramSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="274" column="75" lean-forward="true" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+          <caret line="274" column="75" lean-forward="false" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4541#4542#0" expanded="true" />
-            <element signature="e#4631#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
